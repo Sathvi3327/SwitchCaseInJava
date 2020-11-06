@@ -1,0 +1,17 @@
+package dowhile;
+
+import java.util.Scanner;
+
+public class DoWhile {
+    public static void main(String[] args) {
+        int i = 0;
+        int choice;
+        System.out.println("Enter the number : ");
+        Scanner s = new Scanner(System.in);
+        choice = s.nextInt();
+        do{
+           System.out.println(i); 
+           i++;
+        }while(i<=choice);
+    }  
+}
